@@ -1,5 +1,5 @@
 function ubahHuruf(kata){
-var alphabet = 'abcdefghijklmnopqrstuvwxyza';
+var alphabet = 'abcdefghijklmnopqrstuvwxyz';
 //var splitAlphabet = alphabet.split('');
 //console.log(splitAlphabet)
 var temp='';
@@ -25,7 +25,7 @@ for(var i = 0; i<kata.length;i++){
 return temp;
 }
 // TEST CASES
-console.log(ubahHuruf('wowz')); // xpx
+console.log(ubahHuruf('wow')); // xpx
 console.log(ubahHuruf('developer')); // efwfmpqfs
 console.log(ubahHuruf('javascript')); // kbwbtdsjqu
 console.log(ubahHuruf('keren')); // lfsfo
