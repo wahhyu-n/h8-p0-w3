@@ -11,11 +11,15 @@ for(var a=0; a<arr.length; a++){
         modus++;
         result=arr[a];//jk bil array terakhir 10
     }
-    else if(modus > 4){
+    if(modus > 4){
     //modus.push(arr[a]);
         result = -1;
     }
-    else if(modus === 0){
+    if(modus > 4 && arr[a]!==arr[b]){//agar console.log(cariModus([7, 7, 7, 7, 7, 1, 1])); // 7
+        //modus.push(arr[a]);
+            return arr[a];
+        }
+    if(modus === 0){
         result = -1;
     }
 }
